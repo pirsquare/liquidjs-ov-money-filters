@@ -1,6 +1,6 @@
 {
   "name": "liquidjs-ov-money-filters",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Money filters for liquidjs used by OnVoard",
   "scripts": {},
   "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
@@ -12,6 +12,6 @@
   "main": "lib/index.js",
   "devDependencies": {},
   "dependencies": {
-    "liquidjs": "^8.4.0"
+    "liquidjs": "^9.17.0"
   }
 }
