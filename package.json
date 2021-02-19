@@ -1,0 +1,17 @@
+{
+  "name": "liquidjs-ov-money-filters",
+  "version": "1.0.0",
+  "description": "Money filters for liquidjs used by OnVoard",
+  "scripts": {},
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/liquidjs-ov-money-filters.git"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "liquidjs": "^8.4.0"
+  }
+}
