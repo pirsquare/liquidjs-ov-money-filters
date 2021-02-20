@@ -37,3 +37,10 @@ Format money and display without currency prefix. Currency still needs to be pas
 # Output: 79.50
 engine.parseAndRenderSync(`{{ 79.5|money_without_prefix:"USD" }}`);
 ```
+
+### money_tag
+Wrap money with span element <code>&lt;span class=&quot;money&quot; data-currency=&quot;{{ currency }}&quot;&gt;{{ value }}&lt;/span&gt;</code>. This is a convention to support currency conversion apps, allowing them to auto detect and convert prices to another currency.
+```shell
+# Output: <span class="money" data-currency="USD">$79.50</span>
+engine.parseAndRenderSync(`{{ 79.5|money_native:"USD"|money_tag:"USD" }}`);
+```
