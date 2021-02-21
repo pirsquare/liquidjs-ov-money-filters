@@ -1,6 +1,6 @@
 {
   "name": "liquidjs-ov-money-filters",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Money filters for liquidjs used by OnVoard",
   "keywords": [
     "liquidjs"
@@ -15,6 +15,7 @@
   "main": "lib/index.js",
   "devDependencies": {},
   "dependencies": {
-    "liquidjs": "^9.17.0"
+    "liquidjs": "^9.17.0",
+    "lodash": "^4.17.11"
   }
 }
