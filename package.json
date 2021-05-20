@@ -1,6 +1,7 @@
 {
   "name": "liquidjs-ov-money-filters",
-  "version": "1.6.0",
+  "version": "1.7.0",
+  "type": "module",
   "description": "Money filters for liquidjs used by OnVoard",
   "keywords": [
     "liquidjs"
