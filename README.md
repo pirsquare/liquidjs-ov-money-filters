@@ -44,3 +44,10 @@ Wrap money with span element <code>&lt;span class=&quot;money&quot; data-currenc
 # Output: <span class="money" data-currency="USD">$79.50</span>
 engine.parseAndRenderSync(`{{ 79.5|money_native:"USD"|money_tag:"USD" }}`);
 ```
+
+### money_thousand_separator
+Applies thousand separator to make it easier to read.
+```shell
+# Output: 79,000,000.50
+engine.parseAndRenderSync(`{{ 79000000.5|money_native:"USD"|money_thousand_separator:"," }}`);
+```
